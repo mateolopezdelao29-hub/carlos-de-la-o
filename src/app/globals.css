@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 8%;
+
+    --primary: 16 100% 56%; /* naranja-500 */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 24 100% 97%;
+    --secondary-foreground: 0 0% 8%;
+
+    --muted: 30 20% 96%;
+    --muted-foreground: 0 0% 42%;
+
+    --accent: 24 100% 95%;
+    --accent-foreground: 12 90% 40%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 15% 90%;
+    --input: 30 15% 88%;
+    --ring: 16 100% 56%;
+
+    --radius: 0.85rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Respeta a quien prefiere menos movimiento. */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+
+  body {
+    @apply bg-background text-tinta font-sans antialiased;
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  ::selection {
+    @apply bg-naranja-500 text-white;
+  }
+
+  /* Foco visible para accesibilidad (WCAG AA). */
+  :focus-visible {
+    @apply outline-none ring-2 ring-naranja-500 ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer components {
+  /* Etiqueta "eyebrow" naranja: firma tipográfica recurrente del sitio. */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-naranja-600;
+  }
+
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-6 bg-naranja-500;
+  }
+
+  .section {
+    @apply py-24 md:py-32;
+  }
+
+  .heading-display {
+    @apply font-display font-bold tracking-tight text-tinta;
+  }
+
+  /* Balance de líneas en títulos. */
+  .text-balance {
+    text-wrap: balance;
+  }
+}
