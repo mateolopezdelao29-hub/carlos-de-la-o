@@ -15,9 +15,9 @@ export const CONTACTO = {
   alcaldia: "Benito Juárez, Ciudad de México",
   whatsapp: "5534548267",
   whatsappTexto: "¿Necesitas ayuda? Escríbeme.",
-  instagram: "https://instagram.com/",
-  x: "https://x.com/",
-  facebook: "https://facebook.com/",
+  instagram: "https://instagram.com/carlosdlaoo",
+  x: "https://x.com/CarlosDelaO24",
+  facebook: "https://www.facebook.com/share/183sTjtcf5/",
 } as const;
 
 // ── Navegación ────────────────────────────────────────────────
