@@ -66,7 +66,7 @@ export const TIMELINE = [
     anio: "Hoy",
     titulo: "Resolverle al vecino",
     texto:
-      "Mi chamba de todos los días es hacer comunidad y resolverle al vecino. No es una campaña: es un hábito.",
+      "Mi chamba de todos los días es hacer comunidad y resolverle al vecino.",
   },
 ] as const;
 
