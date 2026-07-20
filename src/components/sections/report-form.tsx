@@ -53,10 +53,9 @@ export function ReportForm() {
           .from("reportes")
           .upload(nombre, foto);
         if (upErr) throw upErr;
-        const { data: pub } = supabase.storage
-          .from("reportes")
-          .getPublicUrl(nombre);
-        foto_url = pub.publicUrl;
+        // Guardamos solo la ruta del archivo (no una URL pública).
+        // El panel de admin genera una URL firmada temporal para verla.
+        foto_url = nombre;
       }
 
       // 2. Inserta el reporte (estado inicial: "Recibido").
