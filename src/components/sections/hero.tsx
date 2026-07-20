@@ -50,8 +50,8 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.16 }}
           className="mt-6 max-w-xl text-lg leading-relaxed text-white/85 md:text-xl"
         >
-          Una comunidad fuerte empieza con personas que deciden{" "}
-          <span className="text-naranja-300">involucrarse</span>.
+          <span className="text-naranja-300">«Haz el bien sin mirar a quién.»</span>{" "}
+          Hago comunidad y le resuelvo al vecino en Benito Juárez.
         </motion.p>
 
         <motion.div
