@@ -22,39 +22,104 @@ export default function AvisoPage() {
           <h1 className="mt-8 font-display text-4xl font-bold text-tinta">
             Aviso de privacidad
           </h1>
+
           <div className="mt-6 space-y-4 leading-relaxed text-tinta-suave">
+            <p className="text-sm text-tinta-mute">Última actualización: 20 de julio de 2026.</p>
+
+            <h2 className="pt-4 font-display text-xl font-semibold text-tinta">
+              Responsable de tus datos
+            </h2>
             <p>
-              En el movimiento ciudadano de {CONTACTO.nombrePublico} valoramos y
-              protegemos tus datos personales. Este aviso describe cómo los
-              recabamos y usamos.
+              Carlos Mateo López De la O, en adelante “el
+              movimiento ciudadano de {CONTACTO.nombrePublico}”, con domicilio
+              para efectos de este aviso en Calle Patricio Sanz 33, Benito Juárez, Ciudad de México y correo de contacto{" "}
+              mateolopezdelao29@gmail.com, es responsable del tratamiento y protección
+              de tus datos personales, conforme a la Ley Federal de Protección de
+              Datos Personales en Posesión de los Particulares (LFPDPPP).
             </p>
+
             <h2 className="pt-4 font-display text-xl font-semibold text-tinta">
               Datos que recabamos
             </h2>
             <p>
-              Nombre, teléfono, correo, colonia y la información que compartes al
-              reportar un problema, registrarte como voluntario, ofrecer una
-              donación o suscribirte al newsletter.
+              Recabamos únicamente los datos que tú nos proporcionas a través de
+              los formularios del sitio:
             </p>
+            <ul className="list-disc space-y-1 pl-6">
+              <li>Identificación y contacto: nombre, teléfono y correo electrónico.</li>
+              <li>Ubicación: colonia y la ubicación del problema que reportas.</li>
+              <li>Al reportar: la descripción y, si la adjuntas, una fotografía del problema.</li>
+              <li>Voluntariado: edad, disponibilidad y áreas de interés.</li>
+              <li>Newsletter: tu correo electrónico.</li>
+            </ul>
+
             <h2 className="pt-4 font-display text-xl font-semibold text-tinta">
-              Finalidad
+              Datos sensibles
             </h2>
             <p>
-              Usamos tus datos únicamente para dar seguimiento a tu solicitud,
-              coordinar actividades comunitarias y mantenerte informado. No
-              vendemos ni compartimos tus datos con terceros con fines
-              comerciales.
+              Registrarte como voluntario/a de un movimiento ciudadano puede
+              revelar tu afiliación o simpatía política, considerada un dato
+              personal sensible. Al registrarte, otorgas tu consentimiento
+              expreso para que tratemos esa información con la única finalidad de
+              coordinar las actividades del movimiento. No recabamos ningún otro
+              dato sensible.
             </p>
+
             <h2 className="pt-4 font-display text-xl font-semibold text-tinta">
-              Tus derechos
+              Para qué usamos tus datos
+            </h2>
+            <p>Finalidades necesarias (para atender tu solicitud):</p>
+            <ul className="list-disc space-y-1 pl-6">
+              <li>Dar seguimiento a los reportes y gestiones que nos compartes.</li>
+              <li>Contactarte sobre el estado de tu solicitud.</li>
+              <li>Coordinar el voluntariado y las donaciones en especie.</li>
+            </ul>
+            <p>Finalidades adicionales (opcionales):</p>
+            <ul className="list-disc space-y-1 pl-6">
+              <li>Enviarte el boletín e informarte de actividades de la comunidad.</li>
+            </ul>
+            <p>
+              Si no deseas que usemos tus datos para las finalidades opcionales,
+              puedes indicárnoslo en cualquier momento escribiendo a mateolopezdelao29@gmail.com; esto no afectará la atención de tu solicitud.
+            </p>
+
+            <h2 className="pt-4 font-display text-xl font-semibold text-tinta">
+              Con quién los compartimos
             </h2>
             <p>
-              Puedes solicitar acceder, rectificar, cancelar u oponerte al uso de
-              tus datos escribiendo por WhatsApp al 55 3454 8267.
+              No vendemos ni transferimos tus datos a terceros con fines
+              comerciales. Cuando tu reporte requiera la intervención de una
+              autoridad (por ejemplo, la Alcaldía Benito Juárez), podremos
+              compartir la información indispensable con el único fin de gestionar
+              su solución. Tus datos se resguardan en servicios de infraestructura
+              con medidas de seguridad razonables.
             </p>
-            <p className="pt-6 text-sm text-tinta-mute">
-              Este es un texto de referencia. Sustitúyelo por la versión revisada
-              conforme a la legislación aplicable antes de publicar.
+
+            <h2 className="pt-4 font-display text-xl font-semibold text-tinta">
+              Tus derechos (ARCO)
+            </h2>
+            <p>
+              Tienes derecho a Acceder, Rectificar y Cancelar tus datos, así como a
+              Oponerte a su uso (derechos ARCO), y a revocar tu consentimiento en
+              cualquier momento. Para ejercerlos, escribe a mateolopezdelao29@gmail.com
+              indicando tu nombre y la solicitud específica. Si consideras que tu
+              derecho a la protección de datos fue vulnerado, puedes acudir a la
+              autoridad competente en la materia.
+            </p>
+
+            <h2 className="pt-4 font-display text-xl font-semibold text-tinta">
+              Cookies
+            </h2>
+            <p>
+              Este sitio no utiliza cookies con fines publicitarios ni de rastreo.
+            </p>
+
+            <h2 className="pt-4 font-display text-xl font-semibold text-tinta">
+              Cambios a este aviso
+            </h2>
+            <p>
+              Cualquier modificación a este aviso se publicará en esta misma
+              página, con su fecha de actualización.
             </p>
           </div>
         </div>
