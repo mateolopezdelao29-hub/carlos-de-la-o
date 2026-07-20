@@ -2,10 +2,9 @@ import {
   Users,
   HeartHandshake,
   GraduationCap,
-  Trees,
   Sparkles,
-  ShieldCheck,
   HandHelping,
+  Home,
   type LucideIcon,
 } from "lucide-react";
 
@@ -34,28 +33,40 @@ export const NAV_LINKS = [
 // ── Línea del tiempo (Sobre mí) ───────────────────────────────
 export const TIMELINE = [
   {
-    anio: "El inicio",
-    titulo: "Un vecino que decidió no quedarse callado",
+    anio: "El origen",
+    titulo: "De una iniciativa por la vivienda digna",
     texto:
-      "Crecí en Benito Juárez. Vi de cerca lo que funciona y lo que falta. En algún momento dejé de esperar a que alguien más lo arreglara.",
+      "Llegué a lo público de la mano del liderazgo de Ro Cordera, con quien presenté una iniciativa por la vivienda digna. Lo que siempre me ha movido es simple: las ganas de ayudar y la certeza de que desde lo público sí se puede lograr.",
   },
   {
-    anio: "Formación",
-    titulo: "Datos al servicio de la comunidad",
+    anio: "Primera generación",
+    titulo: "Campus Naranja",
     texto:
-      "Estudiando Ciencia de Datos aprendí que las buenas decisiones nacen de escuchar bien y medir mejor. Esa es la forma en que trabajo.",
+      "Gracias a Paty Urriza y Beto Amor me inscribí en la primera generación del Campus Naranja, la escuela de formación de Movimiento Ciudadano. Me gradué en octubre de 2025.",
   },
   {
-    anio: "Servicio",
-    titulo: "Delegado y coach ciudadano",
+    anio: "Nov 2025",
+    titulo: "Hacer comunidad en Benito Juárez",
     texto:
-      "Como Delegado de Fundación México con Valores y Coach del Campus Naranja, acompaño a más personas a organizarse y actuar.",
+      "Empecé a hacer equipo con Alejandro Mijes, Laura Ballesteros y Maribel Ramírez para crear comunidad en la alcaldía. Desde entonces recorro la Benito Juárez todos los días.",
+  },
+  {
+    anio: "Feb 2026",
+    titulo: "Coach del Campus Naranja",
+    texto:
+      "Regresé al Campus Naranja, ahora del otro lado: como coach, acompañando a la siguiente generación de liderazgos.",
+  },
+  {
+    anio: "Abr 2026",
+    titulo: "Delegado de Fundación México con Valores",
+    texto:
+      "Asumí como delegado distrital federal de la Fundación México con Valores en Benito Juárez.",
   },
   {
     anio: "Hoy",
-    titulo: "Una comunidad que trabaja todos los días",
+    titulo: "Resolverle al vecino",
     texto:
-      "Recorremos calles, escuchamos vecinos y damos seguimiento a cada gestión. No es una campaña: es un hábito de servicio.",
+      "Mi chamba de todos los días es hacer comunidad y resolverle al vecino. No es una campaña: es un hábito.",
   },
 ] as const;
 
@@ -68,39 +79,36 @@ export type Creencia = {
 
 export const CREENCIAS: Creencia[] = [
   {
-    icono: Users,
-    titulo: "Participación ciudadana",
-    texto: "El poder real está en los vecinos organizados, no en los escritorios.",
+    icono: Home,
+    titulo: "Vivienda digna para los jóvenes",
+    texto:
+      "Que quien creció en Benito Juárez pueda quedarse a vivir en Benito Juárez.",
   },
   {
     icono: HeartHandshake,
+    titulo: "Una alcaldía cercana",
+    texto: "Un gobierno que escucha en la banqueta, no desde el escritorio.",
+  },
+  {
+    icono: Users,
     titulo: "Comunidad",
     texto: "Nadie mejora una colonia en solitario. Se hace en equipo, cara a cara.",
   },
   {
-    icono: GraduationCap,
-    titulo: "Educación",
-    texto: "Formar a más líderes locales multiplica cada esfuerzo por diez.",
+    icono: HandHelping,
+    titulo: "Servicio",
+    texto:
+      "Estar cerca no es un eslogan: es resolverle al vecino cuando lo necesita.",
   },
   {
-    icono: Trees,
-    titulo: "Espacios públicos",
-    texto: "Parques y calles dignas son el punto de encuentro de una comunidad sana.",
+    icono: GraduationCap,
+    titulo: "Formar liderazgos",
+    texto: "Formar a más líderes locales multiplica cada esfuerzo por diez.",
   },
   {
     icono: Sparkles,
     titulo: "Juventud",
-    texto: "Las nuevas generaciones no son el futuro: ya están cambiando el presente.",
-  },
-  {
-    icono: ShieldCheck,
-    titulo: "Transparencia",
-    texto: "Cada gestión se registra y se puede consultar. Sin cajas negras.",
-  },
-  {
-    icono: HandHelping,
-    titulo: "Servicio",
-    texto: "Estar cerca no es un eslogan: es responder cuando alguien lo necesita.",
+    texto: "Las nuevas generaciones no son el futuro: ya cambian el presente.",
   },
 ];
 
@@ -116,30 +124,39 @@ export type Proyecto = {
 
 export const PROYECTOS: Proyecto[] = [
   {
-    slug: "recorridos-vecinales",
-    titulo: "Recorridos vecinales",
+    slug: "recorridos-diarios",
+    titulo: "Recorridos diarios",
     descripcion:
-      "Caminamos las colonias de Benito Juárez escuchando a las familias y levantando reportes en el momento.",
-    impacto: "Cientos de vecinos escuchados de manera directa",
-    fecha: "2025",
+      "Camino las colonias de Benito Juárez todos los días, escuchando a las familias y levantando lo que hace falta.",
+    impacto: "Todos los días en la calle desde noviembre de 2025",
+    fecha: "Desde nov 2025",
     imagen: "/images/proyecto-recorridos.jpg",
   },
   {
-    slug: "gestiones-ciudadanas",
-    titulo: "Gestiones ciudadanas",
+    slug: "entrega-de-donativos",
+    titulo: "Entrega de donativos",
     descripcion:
-      "Damos seguimiento puntual a cada reporte de servicios: baches, luminarias, poda y limpieza.",
-    impacto: "Seguimiento público a cada solicitud",
-    fecha: "2025",
+      "Llevamos apoyos en especie a familias de la alcaldía. Es apenas la primera de muchas.",
+    impacto: "Primera entrega hecha; vienen más",
+    fecha: "2026",
     imagen: "/images/proyecto-gestiones.jpg",
   },
   {
-    slug: "formacion-de-liderazgos",
-    titulo: "Formación de liderazgos",
+    slug: "jornada-medica-madres",
+    titulo: "Jornada médica por el Día de las Madres",
     descripcion:
-      "Talleres del Campus Naranja para que más jóvenes aprendan a organizar y servir a su comunidad.",
-    impacto: "Nuevas y nuevos líderes formados",
-    fecha: "2024–2025",
+      "Una jornada de salud gratuita para la comunidad, en conmemoración del Día de las Madres.",
+    impacto: "Salud gratuita para las mamás de la colonia",
+    fecha: "Mayo 2026",
+    imagen: "/images/proyecto-recorridos.jpg",
+  },
+  {
+    slug: "coach-campus-naranja",
+    titulo: "Coach en el Campus Naranja",
+    descripcion:
+      "Acompaño a la nueva generación de liderazgos con módulos en modalidad presencial, cíclica y en línea, como parte de la coordinación.",
+    impacto: "3 módulos coordinados con éxito",
+    fecha: "2026",
     imagen: "/images/proyecto-formacion.jpg",
   },
 ];
@@ -161,31 +178,31 @@ export const COLUMNAS: Columna[] = [
     slug: "la-comunidad-que-si-funciona",
     titulo: "La comunidad que sí funciona",
     extracto:
-      "Lo que aprendí tocando puertas en Benito Juárez: los problemas se resuelven más rápido cuando los vecinos se organizan.",
-    fecha: "2025-07-14",
+      "Lo que aprendí recorriendo Benito Juárez todos los días: los problemas se resuelven más rápido cuando los vecinos se organizan.",
+    fecha: "2026-07-10",
     minutosLectura: 4,
     autor: "Carlos De la O",
     imagen: "/images/columna-1.jpg",
     contenido: [
-      "Durante meses he tocado puertas por toda la alcaldía. La conclusión es sencilla: la comunidad que se organiza consigue resultados que ninguna oficina logra por su cuenta.",
+      "Desde noviembre del año pasado recorro la alcaldía todos los días. La conclusión es sencilla: la comunidad que se organiza consigue resultados que ninguna oficina logra por su cuenta.",
       "Cuando un vecino reporta un bache y otros tres lo respaldan, la gestión avanza distinto. No es magia; es corresponsabilidad. Por eso este proyecto pone a la comunidad en el centro y no a una sola persona.",
       "La transparencia es la otra mitad. Cada gestión que iniciamos queda registrada y se puede consultar. Si prometemos dar seguimiento, tiene que poder comprobarse.",
-      "Esta columna existe para eso: contar lo que estamos haciendo, con nombre y fecha, y para invitarte a sumarte. Benito Juárez mejora cuando más manos deciden involucrarse.",
+      "Esta columna existe para eso: contar lo que estamos haciendo, con nombre y fecha, e invitarte a sumarte. Haz el bien sin mirar a quién: Benito Juárez mejora cuando más manos deciden involucrarse.",
     ],
   },
   {
-    slug: "datos-para-decidir-mejor",
-    titulo: "Datos para decidir mejor",
+    slug: "vivienda-digna-para-quedarse",
+    titulo: "Vivienda digna para quedarse",
     extracto:
-      "No basta con tener buenas intenciones. Medir qué se reporta y qué se resuelve nos hace más útiles para el vecino.",
-    fecha: "2025-07-07",
+      "Empecé en esto con una iniciativa por la vivienda digna. Sigue siendo mi bandera: que los jóvenes puedan quedarse a vivir donde crecieron.",
+    fecha: "2026-07-03",
     minutosLectura: 3,
     autor: "Carlos De la O",
     imagen: "/images/columna-2.jpg",
     contenido: [
-      "Vengo de la Ciencia de Datos y no puedo evitar verlo todo con esa lente: lo que no se mide, no se mejora.",
-      "Saber qué categorías de problemas se reportan más —baches, alumbrado, basura— nos permite anticipar y no solo reaccionar. Los datos ordenan las prioridades del servicio.",
-      "Pero los datos sin cercanía son fríos. Por eso combinamos las cifras con el recorrido a pie: el número te dice dónde mirar, la conversación te dice por qué.",
+      "Mi camino en lo público empezó con una iniciativa por la vivienda digna. No fue casualidad: es el tema que más me mueve.",
+      "Cada vez conozco a más jóvenes de Benito Juárez que crecieron aquí y hoy no pueden pagar quedarse. Perder a esas generaciones es perder el alma de la alcaldía.",
+      "Una alcaldía cercana tiene que hacerse esta pregunta todos los días: ¿qué estamos haciendo para que los nuestros puedan quedarse? De eso van estas líneas, y de eso va el trabajo.",
     ],
   },
 ];
