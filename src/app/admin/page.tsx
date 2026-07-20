@@ -225,14 +225,24 @@ function Dashboard() {
 
                   <div className="flex flex-col items-end gap-3">
                     {r.foto_url && (
-                      <a
-                        href={r.foto_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <button
+                        type="button"
+                        onClick={async () => {
+                          const { data } = await supabase.storage
+                            .from("reportes")
+                            .createSignedUrl(r.foto_url!, 60);
+                          if (data?.signedUrl) {
+                            window.open(
+                              data.signedUrl,
+                              "_blank",
+                              "noopener,noreferrer"
+                            );
+                          }
+                        }}
                         className="text-xs font-medium text-naranja-600 hover:underline"
                       >
                         Ver foto
-                      </a>
+                      </button>
                     )}
                     <div className="w-44">
                       <Select
