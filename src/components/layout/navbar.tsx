@@ -41,7 +41,7 @@ export function Navbar() {
 
         <div className="hidden items-center gap-8 md:flex">
           {NAV_LINKS.map((link) => (
-            <a
+            
               key={link.href}
               href={link.href}
               className="text-sm font-medium text-tinta-suave transition-colors hover:text-naranja-600"
@@ -49,6 +49,9 @@ export function Navbar() {
               {link.label}
             </a>
           ))}
+          <Button asChild size="sm" variant="outline">
+            <a href="#donaciones">Dona</a>
+          </Button>
           <Button asChild size="sm">
             <a href="#sumate">Únete</a>
           </Button>
@@ -75,7 +78,7 @@ export function Navbar() {
           >
             <div className="container flex flex-col gap-1 py-4">
               {NAV_LINKS.map((link) => (
-                <a
+                
                   key={link.href}
                   href={link.href}
                   onClick={() => setOpen(false)}
@@ -84,6 +87,11 @@ export function Navbar() {
                   {link.label}
                 </a>
               ))}
+              <Button asChild variant="outline" className="mt-2">
+                <a href="#donaciones" onClick={() => setOpen(false)}>
+                  Dona
+                </a>
+              </Button>
               <Button asChild className="mt-2">
                 <a href="#sumate" onClick={() => setOpen(false)}>
                   Únete
