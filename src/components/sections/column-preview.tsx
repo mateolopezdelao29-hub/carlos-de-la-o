@@ -17,7 +17,7 @@ export function ColumnPreview() {
               Palabras que acompañan la acción
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-tinta-mute">
-              Cada semana escribo sobre lo que pasa en Benito Juárez y en lo
+              Cada semana escribo sobre lo que pasa en lo
               público. Puedes leer mi columna en Entre Líneas.
             </p>
             <Button asChild size="lg" className="mt-8">
