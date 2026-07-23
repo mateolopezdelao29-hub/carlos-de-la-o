@@ -7,9 +7,9 @@ export function Beliefs() {
     <section id="creo" className="section bg-crema">
       <div className="container">
         <SectionHeading
-          eyebrow="En qué creo"
-          title="Ideas simples que guían cada acción"
-          description="No son promesas de campaña. Son los principios con los que trabajamos todos los días."
+          eyebrow="Mis convicciones"
+          title="Las causas que me mueven"
+          description="Los principios con los que trabajo y sonrio todos los días."
         />
 
         <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
