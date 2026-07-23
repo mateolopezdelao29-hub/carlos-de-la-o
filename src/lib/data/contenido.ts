@@ -27,7 +27,6 @@ export const NAV_LINKS = [
   { href: "#trabajo", label: "Mi trabajo" },
   { href: "#columna", label: "Columna" },
   { href: "#reportar", label: "Reportar" },
-  { href: "#sumate", label: "Súmate" },
 ] as const;
 
 // ── Línea del tiempo (Sobre mí) ───────────────────────────────
@@ -42,7 +41,7 @@ export const TIMELINE = [
     anio: "Primera generación",
     titulo: "Campus Naranja",
     texto:
-      "Gracias a Paty Urriza y Beto Amor me inscribí en la primera generación del Campus Naranja, la escuela de formación de Movimiento Ciudadano. Me gradué en octubre de 2025.",
+      "Por invitación de Paty Urriza, Beto Amor y Jose Garulo me inscribí en la primera generación del Campus Naranja, la escuela de formación de Movimiento Ciudadano. Me gradué en octubre de 2025.",
   },
   {
     anio: "Nov 2025",
@@ -127,7 +126,7 @@ export const PROYECTOS: Proyecto[] = [
     slug: "recorridos-diarios",
     titulo: "Recorridos diarios",
     descripcion:
-      "Recorro las colonias de Benito Juárez todos los días, junto a Alejandro Mijes y el equipo de jóvenes, escuchando a las familias y levantando lo que hace falta.",
+      "Recorro las colonias de Benito Juárez todos los días, junto a Alejandro Mijes y más jóvenes entusiastas por pintar la alcaldía naranja, escuchando a las familias y levantando lo que hace falta.",
     impacto: "Todos los días en la calle desde noviembre de 2025",
     fecha: "Desde nov 2025",
     imagen: "/images/proyecto-recorridos.jpg",
@@ -136,8 +135,8 @@ export const PROYECTOS: Proyecto[] = [
     slug: "entrega-de-donativos",
     titulo: "Entrega de donativos",
     descripcion:
-      "Llevamos apoyos en especie a familias de la alcaldía. Es apenas la primera de muchas.",
-    impacto: "Primera entrega hecha; vienen más",
+      "Llevamos apoyos en especie a fundaciones de la alcaldía.",
+    impacto: "Dando nuestro granito de arena por una sonrisa más",
     fecha: "2026",
     imagen: "/images/proyecto-gestiones.jpg",
   },
@@ -164,7 +163,7 @@ export const PROYECTOS: Proyecto[] = [
     titulo: "Coach en el Campus Naranja",
     descripcion:
       "Acompaño a la nueva generación de liderazgos con módulos en modalidad presencial, cíclica y en línea, como parte de la coordinación.",
-    impacto: "3 módulos coordinados con éxito",
+    impacto: "3 de 3 módulos coordinados con éxito",
     fecha: "2026",
     imagen: "/images/proyecto-formacion.jpg",
   },
