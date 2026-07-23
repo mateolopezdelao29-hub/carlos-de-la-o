@@ -29,10 +29,7 @@ export function Navbar() {
       )}
     >
       <nav className="container flex h-16 items-center justify-between md:h-20">
-        <Link
-          href="#top"
-          className="flex items-center gap-2 font-display text-lg font-bold tracking-tight text-tinta"
-        >
+        <Link href="#top" className="flex items-center gap-2 font-display text-lg font-bold tracking-tight text-tinta">
           <span className="grid h-8 w-8 place-items-center rounded-lg bg-naranja-500 text-white">
             C
           </span>
@@ -41,11 +38,7 @@ export function Navbar() {
 
         <div className="hidden items-center gap-8 md:flex">
           {NAV_LINKS.map((link) => (
-            
-              key={link.href}
-              href={link.href}
-              className="text-sm font-medium text-tinta-suave transition-colors hover:text-naranja-600"
-            >
+            <a key={link.href} href={link.href} className="text-sm font-medium text-tinta-suave transition-colors hover:text-naranja-600">
               {link.label}
             </a>
           ))}
@@ -78,24 +71,15 @@ export function Navbar() {
           >
             <div className="container flex flex-col gap-1 py-4">
               {NAV_LINKS.map((link) => (
-                
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setOpen(false)}
-                  className="rounded-lg px-3 py-3 text-base font-medium text-tinta-suave hover:bg-naranja-50 hover:text-naranja-600"
-                >
+                <a key={link.href} href={link.href} onClick={() => setOpen(false)} className="rounded-lg px-3 py-3 text-base font-medium text-tinta-suave hover:bg-naranja-50 hover:text-naranja-600">
                   {link.label}
                 </a>
               ))}
               <Button asChild variant="outline" className="mt-2">
-                <a href="#donaciones" onClick={() => setOpen(false)}>
-                  Dona
-                </a>
+                <a href="#donaciones" onClick={() => setOpen(false)}>Dona</a>
               </Button>
               <Button asChild className="mt-2">
-                <a href="#sumate" onClick={() => setOpen(false)}>
-                  Únete
-                </a>
+                <a href="#sumate" onClick={() => setOpen(false)}>Únete</a>
               </Button>
             </div>
           </motion.div>
