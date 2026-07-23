@@ -66,7 +66,7 @@ export const TIMELINE = [
     anio: "Hoy",
     titulo: "Resolverle al vecino",
     texto:
-      "Mi chamba de todos los días es hacer comunidad y resolverle al vecino.",
+      "Mi chamba de todos los días es hacer comunidad y resolverle al vecino. No es una campaña: es un hábito.",
   },
 ] as const;
 
@@ -127,7 +127,7 @@ export const PROYECTOS: Proyecto[] = [
     slug: "recorridos-diarios",
     titulo: "Recorridos diarios",
     descripcion:
-      "Camino las colonias de Benito Juárez todos los días, escuchando a las familias y levantando lo que hace falta.",
+      "Recorro las colonias de Benito Juárez todos los días, junto a Alejandro Mijes y el equipo de jóvenes, escuchando a las familias y levantando lo que hace falta.",
     impacto: "Todos los días en la calle desde noviembre de 2025",
     fecha: "Desde nov 2025",
     imagen: "/images/proyecto-recorridos.jpg",
@@ -145,10 +145,19 @@ export const PROYECTOS: Proyecto[] = [
     slug: "jornada-medica-madres",
     titulo: "Jornada médica por el Día de las Madres",
     descripcion:
-      "Una jornada de salud gratuita para la comunidad, en conmemoración del Día de las Madres.",
+      "Una jornada de salud gratuita para la comunidad, en conmemoración del Día de las Madres, realizada junto a Alejandro Mijes.",
     impacto: "Salud gratuita para las mamás de la colonia",
     fecha: "Mayo 2026",
     imagen: "/images/proyecto-recorridos.jpg",
+  },
+  {
+    slug: "intercambio-estampas-mundial",
+    titulo: "Intercambio de estampas del Mundial",
+    descripcion:
+      "Organizamos un intercambio de estampas del Mundial para reunir a las familias del barrio, junto a Laura Ballesteros, Maribel Ramírez y Alejandro Mijes.",
+    impacto: "Vecinos de todas las edades conviviendo en la calle",
+    fecha: "2026",
+    imagen: "/images/proyecto-gestiones.jpg",
   },
   {
     slug: "coach-campus-naranja",
@@ -173,36 +182,4 @@ export type Columna = {
   imagen: string;
 };
 
-export const COLUMNAS: Columna[] = [
-  {
-    slug: "la-comunidad-que-si-funciona",
-    titulo: "La comunidad que sí funciona",
-    extracto:
-      "Lo que aprendí recorriendo Benito Juárez todos los días: los problemas se resuelven más rápido cuando los vecinos se organizan.",
-    fecha: "2026-07-10",
-    minutosLectura: 4,
-    autor: "Carlos De la O",
-    imagen: "/images/columna-1.jpg",
-    contenido: [
-      "Desde noviembre del año pasado recorro la alcaldía todos los días. La conclusión es sencilla: la comunidad que se organiza consigue resultados que ninguna oficina logra por su cuenta.",
-      "Cuando un vecino reporta un bache y otros tres lo respaldan, la gestión avanza distinto. No es magia; es corresponsabilidad. Por eso este proyecto pone a la comunidad en el centro y no a una sola persona.",
-      "La transparencia es la otra mitad. Cada gestión que iniciamos queda registrada y se puede consultar. Si prometemos dar seguimiento, tiene que poder comprobarse.",
-      "Esta columna existe para eso: contar lo que estamos haciendo, con nombre y fecha, e invitarte a sumarte. Haz el bien sin mirar a quién: Benito Juárez mejora cuando más manos deciden involucrarse.",
-    ],
-  },
-  {
-    slug: "vivienda-digna-para-quedarse",
-    titulo: "Vivienda digna para quedarse",
-    extracto:
-      "Empecé en esto con una iniciativa por la vivienda digna. Sigue siendo mi bandera: que los jóvenes puedan quedarse a vivir donde crecieron.",
-    fecha: "2026-07-03",
-    minutosLectura: 3,
-    autor: "Carlos De la O",
-    imagen: "/images/columna-2.jpg",
-    contenido: [
-      "Mi camino en lo público empezó con una iniciativa por la vivienda digna. No fue casualidad: es el tema que más me mueve.",
-      "Cada vez conozco a más jóvenes de Benito Juárez que crecieron aquí y hoy no pueden pagar quedarse. Perder a esas generaciones es perder el alma de la alcaldía.",
-      "Una alcaldía cercana tiene que hacerse esta pregunta todos los días: ¿qué estamos haciendo para que los nuestros puedan quedarse? De eso van estas líneas, y de eso va el trabajo.",
-    ],
-  },
-];
+export const COLUMNAS: Columna[] = [];
