@@ -29,8 +29,8 @@ export function About() {
           <div>
             <SectionHeading
               eyebrow="Sobre mí"
-              title="No soy un político. Soy un vecino que decidió actuar."
-              description="Mi historia no empieza en una oficina. Empieza caminando las calles de mi alcaldía y preguntándome qué podía hacer yo."
+              title="Soy un joven convencido que el cambio comienza con una sonrisa."
+              description="Antes que cualquier cargo o proyecto, hubo una pregunta: ¿qué puedo hacer por mi comunidad? La respuesta la encontré caminando sus calles."
             />
 
             <div className="mt-14 space-y-0">
