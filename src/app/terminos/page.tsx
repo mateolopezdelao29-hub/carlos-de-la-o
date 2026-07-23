@@ -38,7 +38,7 @@ export default function TerminosPage() {
               Qué es este sitio
             </h2>
             <p>
-              Es la plataforma de movimiento ciudadano de {CONTACTO.nombrePublico}{" "}
+              Es la plataforma de Movimiento Ciudadano de {CONTACTO.nombrePublico}{" "}
               en {CONTACTO.alcaldia}. Sirve para reportar problemas de la
               comunidad, sumarte como voluntario/a, ofrecer donaciones en especie
               y mantenerte informado/a. No es un portal oficial de gobierno.
@@ -61,7 +61,7 @@ export default function TerminosPage() {
             <p>
               Atendemos cada reporte con el mayor esfuerzo posible y le damos
               seguimiento de forma transparente. Sin embargo, su resolución puede
-              depender de autoridades u otras instancias ajenas a este movimiento,
+              depender de autoridades u otras instancias ajenas
               por lo que no podemos garantizar un resultado ni un plazo
               determinado.
             </p>
