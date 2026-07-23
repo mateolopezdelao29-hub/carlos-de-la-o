@@ -15,22 +15,22 @@ export function Social() {
     {
       icon: Instagram,
       nombre: "Instagram",
-      handle: "@carlosdelao",
-      desc: "Historias y momentos del día a día en la comunidad.",
+      handle: "@carlosdlaoo",
+      desc: "Historias y momentos del día a día con la comunidad.",
       href: CONTACTO.instagram,
     },
     {
       icon: XIcon,
       nombre: "X",
-      handle: "@carlosdelao",
-      desc: "Ideas cortas y lo que está pasando en Benito Juárez.",
+      handle: "@CarlosDelao24",
+      desc: "Un tweet a la vez para cambiar el mundo.",
       href: CONTACTO.x,
     },
     {
       icon: Facebook,
       nombre: "Facebook",
       handle: "Carlos De la O",
-      desc: "Eventos, convocatorias y avisos para vecinos.",
+      desc: "Todos los días con una sonrisa.",
       href: CONTACTO.facebook,
     },
   ];
@@ -43,7 +43,7 @@ export function Social() {
             Redes sociales
           </p>
           <h2 className="mt-5 font-display text-3xl font-bold tracking-tight text-white text-balance sm:text-4xl md:text-5xl">
-            Sigue el movimiento, día con día
+            Sígueme, día con día
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-white/70">
             Lo que hacemos no cabe en una sola página. Acompáñanos en redes y sé
