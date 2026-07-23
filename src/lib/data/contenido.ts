@@ -41,31 +41,31 @@ export const TIMELINE = [
     anio: "Primera generación",
     titulo: "Campus Naranja",
     texto:
-      "Por invitación de Paty Urriza, Beto Amor y Jose Garulo me inscribí en la primera generación del Campus Naranja, la escuela de formación de Movimiento Ciudadano. Me gradué en octubre de 2025.",
+      "Por invitación de Paty Urriza, Beto Amor y Jose Garulo me inscribí en la primera generación del Campus Naranja, la escuela de formación de Movimiento Ciudadano. 6 meses y con amigos que ya son familia, me gradué del programa de formación en acción polítcica.",
   },
   {
     anio: "Nov 2025",
-    titulo: "Hacer comunidad en Benito Juárez",
+    titulo: "Hacer comunidad en mi alcaldía, Benito Juárez",
     texto:
-      "Empecé a hacer equipo con Alejandro Mijes, Laura Ballesteros y Maribel Ramírez para crear comunidad en la alcaldía. Desde entonces recorro la Benito Juárez todos los días.",
+      "Empecé a hacer equipo con Alejandro Mijes, Laura Ballesteros y Maribel Ramírez para crear comunidad en la alcaldía. Desde entonces camino la Benito Juárez todos los días.",
   },
   {
     anio: "Feb 2026",
     titulo: "Coach del Campus Naranja",
     texto:
-      "Regresé al Campus Naranja, ahora del otro lado: como coach, acompañando a la siguiente generación de liderazgos.",
+      "Por invitación de Jose Garulo, regresé al Campus Naranja, ahora del otro lado: como coach, acompañando a la siguiente generación de liderazgos, cada momento más seguro que los jovenes no somos el futuo, somos el presente.",
   },
   {
     anio: "Abr 2026",
     titulo: "Delegado de Fundación México con Valores",
     texto:
-      "Asumí como delegado distrital federal de la Fundación México con Valores en Benito Juárez.",
+      "Bajo el liderazgo de Braulio Ochoa y Edgar Martínez, asumí el cargo de delegado distrital federal de la Fundación México con Valores en el distrito 15 con cabecera en Benito Juárez.",
   },
   {
     anio: "Hoy",
     titulo: "Resolverle al vecino",
     texto:
-      "Mi chamba de todos los días es hacer comunidad y resolverle al vecino. No es una campaña: es un hábito.",
+      "Tengo la mejor chamba del mundo, resolver.",
   },
 ] as const;
 
@@ -81,23 +81,23 @@ export const CREENCIAS: Creencia[] = [
     icono: Home,
     titulo: "Vivienda digna para los jóvenes",
     texto:
-      "Que quien creció en Benito Juárez pueda quedarse a vivir en Benito Juárez.",
+      "Que quien creció en Benito Juárez pueda quedarse a vivir en Benito Juárez. Tenemos que recordar a la vivienda como un derecho, no como el lujo que le han estado vendiendo a mi generación.",
   },
   {
     icono: HeartHandshake,
     titulo: "Una alcaldía cercana",
-    texto: "Un gobierno que escucha en la banqueta, no desde el escritorio.",
+    texto: "Un gobierno que esté donde importe, casa por casa, colonia por colonia, escuchando y atendiendo.",
   },
   {
     icono: Users,
     titulo: "Comunidad",
-    texto: "Nadie mejora una colonia en solitario. Se hace en equipo, cara a cara.",
+    texto: "Solos podemos hacer muy poco, juntos podemos todo. En palabras de Laura Ballesteros."Solo la comunidad sostiene a la comunidad".",
   },
   {
     icono: HandHelping,
-    titulo: "Servicio",
+    titulo: "Primero las niñas y los niños",
     texto:
-      "Estar cerca no es un eslogan: es resolverle al vecino cuando lo necesita.",
+      "Porque garantizar el bienestar de las niñas y los niños es invertir en el presente y el futuro de la sociedad.",
   },
   {
     icono: GraduationCap,
@@ -107,7 +107,7 @@ export const CREENCIAS: Creencia[] = [
   {
     icono: Sparkles,
     titulo: "Juventud",
-    texto: "Las nuevas generaciones no son el futuro: ya cambian el presente.",
+    texto: "Apostar por la generación del México Nuevo es impulsar a quienes tenemos la energía, las ideas y el potencial para transformar el presente y construir un mejor futuro..",
   },
 ];
 
@@ -126,7 +126,7 @@ export const PROYECTOS: Proyecto[] = [
     slug: "recorridos-diarios",
     titulo: "Recorridos diarios",
     descripcion:
-      "Recorro las colonias de Benito Juárez todos los días, junto a Alejandro Mijes y más jóvenes entusiastas por pintar la alcaldía naranja, escuchando a las familias y levantando lo que hace falta.",
+      "Recorro las colonias de Benito Juárez todos los días, junto a Alejandro Mijes y un gran equipo de jóvenes entusiastas comprometidos por pintar nuestra alcaldía, escuchando a las familias y atendiendo en lo que realmente hace falta.",
     impacto: "Todos los días en la calle desde noviembre de 2025",
     fecha: "Desde nov 2025",
     imagen: "/images/proyecto-recorridos.jpg",
@@ -135,8 +135,8 @@ export const PROYECTOS: Proyecto[] = [
     slug: "entrega-de-donativos",
     titulo: "Entrega de donativos",
     descripcion:
-      "Llevamos apoyos en especie a fundaciones de la alcaldía.",
-    impacto: "Dando nuestro granito de arena por una sonrisa más",
+      "Trabajamos de la mano con fundaciones de Benito Juárez, llevando apoyos en especie para fortalecer la labor que realizan todos los días.",
+    impacto: "Una fundacion y una sonrisa a la vez",
     fecha: "2026",
     imagen: "/images/proyecto-gestiones.jpg",
   },
@@ -144,8 +144,8 @@ export const PROYECTOS: Proyecto[] = [
     slug: "jornada-medica-madres",
     titulo: "Jornada médica por el Día de las Madres",
     descripcion:
-      "Una jornada de salud gratuita para la comunidad, en conmemoración del Día de las Madres, realizada junto a Alejandro Mijes.",
-    impacto: "Salud gratuita para las mamás de la colonia",
+      "Llevamos una jornada de salud gratuita para la comunidad, en conmemoración del Día de las Madres, realizada junto a Alejandro Mijes.",
+    impacto: "Salud gratuita para las mamás de la alcaldía",
     fecha: "Mayo 2026",
     imagen: "/images/proyecto-recorridos.jpg",
   },
@@ -153,7 +153,7 @@ export const PROYECTOS: Proyecto[] = [
     slug: "intercambio-estampas-mundial",
     titulo: "Intercambio de estampas del Mundial",
     descripcion:
-      "Organizamos un intercambio de estampas del Mundial para reunir a las familias del barrio, junto a Laura Ballesteros, Maribel Ramírez y Alejandro Mijes.",
+      "Organizamos un intercambio de estampas del Mundial para que más niñas, niños y familias pudieran completar su álbum sin gastar de más, junto a Laura Ballesteros, Maribel Ramírez y Alejandro Mijes.",
     impacto: "Vecinos de todas las edades conviviendo en la calle",
     fecha: "2026",
     imagen: "/images/proyecto-gestiones.jpg",
