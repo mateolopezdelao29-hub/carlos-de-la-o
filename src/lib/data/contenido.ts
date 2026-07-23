@@ -91,7 +91,7 @@ export const CREENCIAS: Creencia[] = [
   {
     icono: Users,
     titulo: "Comunidad",
-    texto: "Solos podemos hacer muy poco, juntos podemos todo. En palabras de Laura Ballesteros."Solo la comunidad sostiene a la comunidad".",
+    texto: "Solos podemos hacer muy poco, juntos podemos todo. En palabras de Laura Ballesteros: Solo la comunidad sostiene a la comunidad.",
   },
   {
     icono: HandHelping,
