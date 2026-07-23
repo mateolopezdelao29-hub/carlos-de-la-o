@@ -10,7 +10,6 @@ import { ReportForm } from "@/components/sections/report-form";
 import { Donations } from "@/components/sections/donations";
 import { Volunteer } from "@/components/sections/volunteer";
 import { Social } from "@/components/sections/social";
-import { Newsletter } from "@/components/sections/newsletter";
 
 export default function HomePage() {
   return (
@@ -26,7 +25,6 @@ export default function HomePage() {
         <Donations />
         <Volunteer />
         <Social />
-        <Newsletter />
       </main>
       <Footer />
       <WhatsAppButton />
