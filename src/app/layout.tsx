@@ -27,15 +27,15 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${CONTACTO.nombrePublico} · Movimiento ciudadano en Benito Juárez`,
+    default: `${CONTACTO.nombrePublico} · la alegría tambien transforma`,
     template: `%s · ${CONTACTO.nombrePublico}`,
   },
   description:
-    "Una comunidad fuerte empieza con personas que deciden involucrarse. Reporta problemas, súmate como voluntario y conoce el trabajo diario en Benito Juárez.",
+    "El primer paso siempre es animarse. Reporta problemas, súmate como voluntario y conoce mi trabajo diario en Benito Juárez.",
   keywords: [
     "Carlos De la O",
     "Benito Juárez",
-    "movimiento ciudadano",
+    "Movimiento Ciudadano",
     "participación ciudadana",
     "reportar problemas",
     "voluntariado CDMX",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
     locale: "es_MX",
     url: siteUrl,
     siteName: CONTACTO.nombrePublico,
-    title: `${CONTACTO.nombrePublico} · Movimiento ciudadano`,
+    title: `${CONTACTO.nombrePublico} · Movimiento Ciudadano`,
     description:
-      "Una comunidad que trabaja todos los días por mejorar Benito Juárez.",
+      "Hago comunidad y le resuelvo al vecino.",
     images: [
       {
         url: "/og.jpg",
@@ -60,9 +60,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${CONTACTO.nombrePublico} · Movimiento ciudadano`,
+    title: `${CONTACTO.nombrePublico} · Movimiento Ciudadano`,
     description:
-      "Una comunidad que trabaja todos los días por mejorar Benito Juárez.",
+      "Hago comunidad y le resuelvo al vecino.",
     images: ["/og.jpg"],
   },
   robots: {
