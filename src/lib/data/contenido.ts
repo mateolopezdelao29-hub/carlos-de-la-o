@@ -147,7 +147,7 @@ export const PROYECTOS: Proyecto[] = [
       "Llevamos una jornada de salud gratuita para la comunidad, en conmemoración del Día de las Madres, realizada junto a Alejandro Mijes.",
     impacto: "Salud gratuita para las mamás de la alcaldía",
     fecha: "Mayo 2026",
-    imagen: "/images/proyecto-recorridos.jpg",
+    imagen: "/images/proyecto-jornada.jpg",
   },
   {
     slug: "intercambio-estampas-mundial",
@@ -156,7 +156,7 @@ export const PROYECTOS: Proyecto[] = [
       "Organizamos un intercambio de estampas del Mundial para que más niñas, niños y familias pudieran completar su álbum sin gastar de más, junto a Laura Ballesteros, Maribel Ramírez y Alejandro Mijes.",
     impacto: "Vecinos de todas las edades conviviendo en la calle",
     fecha: "2026",
-    imagen: "/images/proyecto-gestiones.jpg",
+    imagen: "/images/proyecto-estampas.jpg",
   },
   {
     slug: "coach-campus-naranja",
