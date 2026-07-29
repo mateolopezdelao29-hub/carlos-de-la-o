@@ -2,7 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 import { Reveal } from "@/components/reveal";
 import { Button } from "@/components/ui/button";
 
-const COLUMNA_URL = "https://entrelineas-mx.netlify.app/columna/";
+const COLUMNA_URL = "https://entrelineas.lat/columna/";
 
 export function ColumnPreview() {
   return (
